@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap");
+.stopwatch {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+  }
+body{
+    background-image: url(assets/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+
+  
+  h1{
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    font-size: 600%;
+    box-shadow: 5px 5px 10px 10px rgb(46, 0, 25);
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #display {
+    font-size: 300%;
+    margin: 10px 0;
+  }
+
+  .display{
+    justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+color: #fff;
+
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(251, 253, 253);
+    border-radius: .8rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    box-shadow: 5px 5px 10px rgb(78, 5, 150);
+
+  }
+  
